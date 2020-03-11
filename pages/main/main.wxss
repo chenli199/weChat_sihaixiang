@@ -1,0 +1,179 @@
+/* pages/main/main.wxss */
+.top{
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.top-swp{
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.image1{
+  width: 100%;
+  height: 200px; 
+}
+.search{
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  top: 175px;
+  left:30px;
+  display: flex;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 5rpx 5rpx 10rpx gray;
+}
+.search-img{
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.search-font{
+  font-size: 20px;
+}
+.top-mid{
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.top-midBox{
+  width: 50px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+}
+.image2{
+  width: 100%;
+  height: 50px; 
+}
+.font1{
+  width: 100%;
+  height: 60px;
+  
+  font-size: 10px;
+  text-align: center;
+}
+.top-bottom{
+  width: 100%;
+  height: 140px;
+  display: flex;
+  
+}
+.image3{
+  width: 95%;
+  height: 130px; 
+  margin: auto;
+}
+.cooker-menu{
+  width: 100%;
+  height: 200px;
+}
+.cooker-head{
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.cooker-headImg{
+  width: 70%;
+  height: 40px;
+  margin: auto;
+}
+.cooker-image{
+  width: 95%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  top:10px;
+  margin-left:7px; 
+  box-shadow: 5rpx 5rpx 10rpx gray;
+}
+.cooker-imageBox{
+  width: 80px;
+  height: 90px;
+  margin: auto;
+  
+}
+.cooker-img{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px; 
+  border-radius: 50px;
+}
+.cooker-name{
+  width: 100%;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.cooker-star{
+  width: 100%;
+  height: 14px;
+  overflow: hidden;
+}
+.cooker-starBox{
+  width: 78px;
+  height: 100px;
+  margin-top: -65px;
+}
+.more-cooker{
+  width: 100%;
+  height: 30px;
+  position: relative;
+  top: 25px;
+  text-align: center;
+  font-size: 15px;
+  color: gainsboro;
+}
+.meal-menu{
+  width: 100%;
+  height: 210px;
+}
+.meal-head{
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.meal-headImg{
+  width: 70%;
+  height: 18px;
+  margin: auto;
+}
+.meal-image{
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.meal-imageBox{
+  width: 120px;
+  height: 130px;
+  margin: 5px;
+  margin-top:5px; 
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5rpx 5rpx 10rpx gainsboro;
+}
+.meal-img{
+  width: 119px;
+  height: 80px;
+  border-radius: 5px;
+}
+.meal-name{
+  width: 100%;
+  font-size: 14px;
+}
+.meal-pric{
+  width: 100%;
+  font-size: 12px red;
+}
+.more-meal{
+  width: 100%;
+  height: 30px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: gainsboro;
+}

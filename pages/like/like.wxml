@@ -1,0 +1,32 @@
+<!--pages/like/like.wxml-->
+<view class="head">
+  <view class="head-left">
+  <image class="head-leftImg" src="/img/18.png"></image>
+  <view class="head-leftFont">已收藏{{num}}个餐宴</view>
+  </view>
+  <view class="head-delete" bindtap="del">
+    <image class="head-deleteImg" src="/img/19.png"></image>
+    <view class="head-deleteFont">清空</view>
+  </view>
+</view>
+
+<view wx:if="{{num!=0}}" class="collection" wx:for="{{list}}">
+  <image class="collectionImg" src="{{item.img}}">
+  <view class="collectionHot">
+    <image class="hotImg" src="/img/17.png"></image>
+    <view class="hotNum">{{item.hot}}</view>
+  </view>
+  </image>
+  <view class="collectionInfor">
+    <view class="inforName">{{item.name}}</view>
+    <view class="inforPrice">￥{{item.price}}/桌</view>
+    <view class="inforBox" bindtap="cancel" data-banquet-id="12">
+    <image class="inforImg" src="/img/20.png"></image>
+    <view class="inforFont">取消收藏</view>
+    </view>
+  </view>
+</view>
+
+<view wx:if='{{num==0}}' class="nomore">
+  <image class="nomoreImg" src="/img/21.png"></image>
+</view>

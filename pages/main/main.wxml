@@ -1,0 +1,90 @@
+<!--pages/main/main.wxml-->
+<view class="top">
+<!--轮播图-->
+<swiper class="top-swp" indicator-dots="true" autoplay circular>
+  <swiper-item wx:for="{{bannerarr}}">
+      <image class="image1" src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+</view>
+<navigator class="search">
+  <image class="search-img" src="/img/3.png"></image>
+</navigator>
+<view class="top-mid">
+  <view class="top-midBox">
+    <image class="image2" src="/img/5.png"></image>
+    <view class="font1">餐宴</view>
+  </view>
+  <view class="top-midBox">
+    <image class="image2" src="/img/7.png"></image>
+    <view class="font1">名厨</view>
+  </view>
+  <view class="top-midBox">
+    <image class="image2" src="/img/4.png"></image>
+    <view class="font1">坝坝宴</view>
+  </view>
+  <view class="top-midBox">
+    <image class="image2" src="/img/6.png"></image>
+    <view class="font1">餐饮周边</view>
+  </view>
+</view>
+
+<view class="top-bottom">
+  <image class="image3" src="/img/8.png"></image>
+</view>
+
+<view class="cooker-menu">
+  <view class="cooker-head">
+    <image class="cooker-headImg" src="/img/9.png"></image>
+  </view>
+  <view class="cooker-image">
+   <view class="cooker-imageBox">
+    <image class="cooker-img" src="/img/cooker1.jpg"></image>
+    <view class="cooker-name">顾佳静</view>
+    <view class="cooker-star">
+      <image class="cooker-starBox" src="/img/star.png"></image>
+    </view>
+   </view>
+   <view class="cooker-imageBox">
+    <image class="cooker-img" src="/img/cooker2.jpg"></image>
+    <view class="cooker-name">付晨蓓</view>
+    <view class="cooker-star">
+      <image class="cooker-starBox" src="/img/star.png"></image>
+    </view>
+   </view>
+   <view class="cooker-imageBox">
+    <image class="cooker-img" src="/img/cooker3.jpg"></image>
+    <view class="cooker-name">閤秋燕</view>
+    <view class="cooker-star">
+      <image class="cooker-starBox" src="/img/star.png"></image>
+    </view>
+   </view>
+  </view>
+     <view class="more-cooker">更多名厨</view>
+</view>
+
+<view class="meal-menu">
+  <view class="meal-head">
+    <image class="meal-headImg" src="/img/10.png"></image>
+  </view>
+  <scroll-view scroll-x>
+    <view class="meal-image">
+      <view class="meal-imageBox">
+        <image class="meal-img" src="/img/25.png"></image>
+        <view class="meal-name">盛夏海鲜家宴</view>
+        <view class="meal-price">￥4999/桌</view>
+      </view>
+      <view class="meal-imageBox">
+        <image class="meal-img" src="/img/12.png"></image>
+        <view class="meal-name">精品西式家宴</view>
+        <view class="meal-price">￥1299/桌</view>
+        </view>
+      <view class="meal-imageBox">
+        <image class="meal-img" src="/img/31.png"></image>
+        <view class="meal-name">一只螃蟹</view>
+        <view class="meal-price">￥1999/桌</view>
+        </view>
+    </view>
+  </scroll-view>
+  <view class="more-meal">更多餐宴</view>
+</view>

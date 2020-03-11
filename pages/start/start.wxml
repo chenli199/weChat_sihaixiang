@@ -1,0 +1,4 @@
+<view class="startPage">
+  <image class="image1" src="/img/w4.jpg"></image>
+  <button class="bin" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+</view>

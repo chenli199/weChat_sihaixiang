@@ -1,0 +1,15 @@
+<view class="view1">
+  <view class="nickname">
+    <view class="nickname">{{nickname}}</view>
+    <view class="msg1">welcome</view>
+  </view>
+  <image class="img1" src="{{header}}"></image>
+</view>
+
+<view wx:for="{{navarr}}">
+<navigator class="view2" url="{{item.url}}">
+  <image class="img2" src="{{item.icon}}"></image>
+  <view class="msg2">{{item.text}}</view>
+  <view class="msg3">></view>
+</navigator>
+</view>

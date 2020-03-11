@@ -1,0 +1,62 @@
+/* pages/my/my.wxss */
+.view1{
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  border-bottom: 1px #ccc solid;
+  display: flex;
+  justify-content: space-between;
+}
+.nickname{
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  top:5px;
+}
+.msg1{
+  font-size: 20px;
+  margin: 10px 0px;
+  color: #ccc;
+}
+.img1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.view2{
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px #ccc solid;
+}
+.img2{
+  width: 44px;
+  height: 44px;
+  margin: 10px;
+}
+.view3{
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px #ccc solid;
+}
+.view4{
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px #ccc solid;
+}
+.msg2{
+  font-size: 25px; 
+  margin: 10px 0px;
+  width: 200px;
+  color: rgb(46, 45, 45);
+}
+.msg3{
+  font-size: 20px;
+  margin: auto;
+  color: #ccc;
+}

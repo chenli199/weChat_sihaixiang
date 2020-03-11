@@ -1,0 +1,66 @@
+/* pages/order/order.wxss */
+.order{
+  width: 90%;
+  height: 130px;
+  margin: auto;
+  box-shadow: 1rpx 1rpx 5rpx gainsboro;
+}
+.time{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.timeImg{
+  width: 18px;
+  height: 18px;
+}
+.timeFont{
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+  position: relative;
+  left: 5px;
+}
+.meal{
+  width: 100%;
+  height: 80px;
+  margin-top:10px; 
+  margin-left: 5px;
+  display: flex;
+}
+.mealImg{
+  width: 40%;
+  height: 80px;
+}
+.mealInfor{
+  width: 60%;
+  height: 70px;
+  margin-left:5px; 
+}
+.inforName{
+  width: 100%;
+  height: 50px;
+  font: 20px;
+  font-weight: bold;
+}
+.inforPrice{
+  width: 100%;
+  height: 10px;
+  font-size: 15px;
+  color: rgba(248, 8, 8, 0.548);
+  font-weight: bold;
+}
+.evaluate{
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  top: 90px;
+  left: 247px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(248, 8, 8, 0.548);
+  border: 1px solid;
+  border-radius: 5px;
+}

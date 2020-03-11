@@ -1,0 +1,14 @@
+<view class="order">
+  <view class="time">
+    <image class="timeImg" src="/img/22.png"></image>
+    <view class="timeFont">05-09 11:40 周三 名厨上门</view>
+  </view>
+  <view class="meal">
+    <image class="mealImg" src="/img/12.png"></image>
+    <view class="mealInfor">
+      <view class="inforName">盛夏海鲜家宴</view>
+      <view class="inforPrice">￥49999/桌</view>
+    </view>
+    <view class="evaluate">评价</view>
+  </view>
+</view>

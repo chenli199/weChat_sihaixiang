@@ -1,0 +1,16 @@
+/* pages/start/start.wxss */
+page,.startPage{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.image1{
+  width: 100%;
+  height:100%; 
+}
+.bin{
+  width: 150px;
+  position: absolute;
+  bottom: 45px;
+  left: 85px;
+}
